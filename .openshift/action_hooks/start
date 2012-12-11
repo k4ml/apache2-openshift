@@ -3,6 +3,6 @@
 # script. The application will work only if it binds to
 # $OPENSHIFT_INTERNAL_IP:8080
 mkdir -p $OPENSHIFT_HOMEDIR/app-root/data/public
-sed -ig 's/OPENSHIFT_INTERNAL_IP/'$OPENSHIFT_INTERNAL_IP'/g' $OPENSHIFT_HOMEDIR/app-root/repo/diy/httpd.conf
-sed -ig 's/OPENSHIFT_HOMEDIR/'$OPENSHIFT_HOMEDIR'/g' $OPENSHIFT_HOMEDIR/app-root/repo/diy/httpd.conf
+sed -i 's/OPENSHIFT_INTERNAL_IP/$OPENSHIFT_INTERNAL_IP/g' $OPENSHIFT_HOMEDIR/app-root/repo/diy/httpd.conf
+sed -i 's/OPENSHIFT_HOMEDIR/$OPENSHIFT_HOMEDIR/g' $OPENSHIFT_HOMEDIR/app-root/repo/diy/httpd.conf
 httpd -f $OPENSHIFT_HOMEDIR/app-root/repo/diy/httpd.conf
