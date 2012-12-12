@@ -4,6 +4,3 @@
 # up again.  This script gets executed directly, so it could be python, php,
 # ruby, etc.
 #
-
-cp $OPENSHIFT_HOMEDIR/app-root/repo/diy/index.html $OPENSHIFT_HOMEDIR/app-root/data/public/default/
-cp $OPENSHIFT_HOMEDIR/app-root/repo/diy/index2.html $OPENSHIFT_HOMEDIR/app-root/data/public/custom/
