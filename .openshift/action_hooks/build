@@ -5,7 +5,7 @@
 # could be python, php, ruby, etc.
 
 INPUT_DIR=${OPENSHIFT_HOMEDIR}/app-root/repo/site/content
-OUTPUT_DIR=${OPENSHIFT_DATA_DIR}/public/default
+OUTPUT_DIR=${OPENSHIFT_HOMEDIR}/app-root/repo/site/output
 PELICAN_CONF=${OPENSHIFT_HOMEDIR}/app-root/repo/site/pelicanconf.py
 
 virtualenv ${OPENSHIFT_DATA_DIR}/venv

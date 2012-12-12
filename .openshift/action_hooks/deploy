@@ -4,3 +4,5 @@
 # up again.  This script gets executed directly, so it could be python, php,
 # ruby, etc.
 #
+
+cp -a ${OPENSHIFT_HOMEDIR}/app-root/repo/site/output/* ${OPENSHIFT_DATA_DIR}/public/default/
