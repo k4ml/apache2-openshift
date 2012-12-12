@@ -16,3 +16,11 @@ def hello():
 ```
 
 After code. Test update content.
+
+More code:-
+
+```c
+void main(int num) {
+    printf("%d", num);
+}
+```
